@@ -1,0 +1,35 @@
+.container{
+    text-align: center;
+
+}
+.navbar-nav {
+    margin: auto;
+    font-size: 1.75vw;
+    
+    display: flex;
+    justify-content: space-around;
+    
+}
+@media (max-width: 800px){
+    .navbar-nav{
+        font-size: 5vw;
+    }
+}
+
+.items{
+    display: flex;
+    justify-content:space-around;
+}
+
+.footer{
+    background-color: rgb(36,36,36);
+    color: white;
+    text-align: center;
+    
+}
+
+.contact{
+    text-align: center;
+}
+
+
